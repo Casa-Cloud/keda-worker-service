@@ -35,7 +35,7 @@ app.use( (req: any, res: any, next: any) => {
 
 /* Routers */
 const healthRouter = new HealthRouter();
-app.use("/helath", healthRouter.healthRoute);
+app.use("/health", healthRouter.healthRoute);
 
 /* Swagger */
 const swaggerPath = "/api-docs";

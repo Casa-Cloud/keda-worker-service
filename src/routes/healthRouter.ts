@@ -9,7 +9,7 @@ export class HealthRouter {
     this.healthRoute = Router();
     /**
      * @openapi
-     * /helath:
+     * /health:
      *   get:
      *     summary: Get service health
      *     responses:
